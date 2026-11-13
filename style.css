@@ -10,3 +10,11 @@
 
 /* Supplied portrait in the hero */
 .photo-frame>img{object-position:50% 30%;transform:none;filter:none}
+
+/* Gujarati shaping and the supplied circular clinic logo */
+:lang(gu){font-family:"Noto Sans Gujarati","Nirmala UI","Shruti",sans-serif;font-weight:400;line-height:1.9;letter-spacing:normal;font-synthesis:none}
+.brand .clinic-logo{width:88px;height:88px;object-fit:cover;object-position:center;border-radius:50%}
+.footer-top .clinic-logo{width:120px;height:120px;object-fit:cover}
+@media(max-width:760px){.brand .clinic-logo{width:68px;height:68px}.footer-top .clinic-logo{width:100px;height:100px}}
+
+.visit-grid>div>p:lang(gu){font-size:16px;line-height:1.9}
